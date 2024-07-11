@@ -18,11 +18,11 @@ user_guide_src/cilexer/dist/*
 user_guide_src/cilexer/pycilexer.egg-info/*
 /upload/
 /vr/
+/vendor/
+/composer.json/
+/composer.lock/
 # /assets/
-# /vendor/
 # /.htaccess/
-# /composer.json/
-# /composer.lock/
 # /index.php/
 # /ror.xml/
 # /sitemap.html/
