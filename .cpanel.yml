@@ -11,3 +11,4 @@ deployment:
     - /bin/cp .gitignore $DEPLOYPATH
     # - /bin/cp comproser.json $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
+    - cd $DEPLOYPATH && /usr/local/bin/composer install --no-dev --optimize-autoloader
