@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/kina3126/public_html/backup.kanpa.co.id/
+    - export DEPLOYPATH=/home/kina3126/public_html/kanpa.co.id/
     - /bin/cp -R application $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R system $DEPLOYPATH
@@ -9,5 +9,6 @@ deployment:
     - /bin/cp .htaccess $DEPLOYPATH
     - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp .gitignore $DEPLOYPATH
-    # - /bin/cp comproser.json $DEPLOYPATH
+    # - /bin/cp composer.json $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
+    - cd $DEPLOYPATH && /usr/local/bin/composer install --no-dev --optimize-autoloader
