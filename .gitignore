@@ -19,7 +19,7 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 /upload/
 /vr/
 /vendor/
-/composer.json/
+# /composer.json/
 /composer.lock/
 # /assets/
 # /.htaccess/
